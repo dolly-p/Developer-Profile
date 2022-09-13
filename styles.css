@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: gold;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+header h2{
+    font-family: 'Ms Madi', cursive;
+    padding-left: 35px;
+    font-size: xx-large;
+}
+header .nav{
+    display: flex;
+}
+body{
+    background-color: rgb(37, 34, 34);
+}
+.nav span{
+    padding-right: 20px;
+}
+.nav img{
+    height: 30px;
+    width: 30px;
+}
+.content{
+    display: flex;
+    padding-top: 45px;
+}
+.hero-text{
+    width: 400px;
+    padding-left: 35px;
+}
+.icons span img{
+    height: 30px;
+    width: 30px;
+}
+.hero-img{
+    padding-left: 20px;
+}
+.hero-img img{
+    height: 450px;
+    width: 550px;
+}
+.icons button{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid gold;
+}
+.icons button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
